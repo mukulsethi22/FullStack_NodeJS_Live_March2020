@@ -1,0 +1,21 @@
+li{
+    font-weight: bold;
+}
+
+ul>li {
+    color:blue;
+}
+
+ol>li{ /*direct child*/
+    color:red;
+}
+
+ul ul{ /*descendent*/
+    font-style:italic;
+}
+
+ol+ul{ /*next sibling*/
+    background-color: green;
+}
+
+/* x~y y after x*/

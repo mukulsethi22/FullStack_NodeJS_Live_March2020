@@ -1,17 +1,22 @@
 *{
-    background-color: lightcyan;
+    background-color: rgb(40, 120, 120);
 }
 
 #id1 {
+
     background-color:lightgreen;
+    font-size: large;
 }
 
 div{
     background-color: lightseagreen;
+    border: 60px;
+    border-color: black;
 }
 
 .cl1 {
     background-color: lightcoral;
+    text-align: center;
 }
 
 #id1{

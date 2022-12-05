@@ -1,0 +1,17 @@
+#para1{
+    font-size: 30pt;
+}
+/* em width of m */
+/* 1vh 1/100 of window height */
+#para2{
+    font-family: 'Segoe UI',serif; /*same width*/
+}
+#para3{
+    font-style: italic;
+    font-weight: bold;/*lighter*/
+}
+
+#para4{
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
