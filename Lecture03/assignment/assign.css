@@ -1,0 +1,22 @@
+ul li{
+  color:blue;
+}
+
+ul li ul li{
+    display:none;
+}
+
+ul li:hover ul li {
+    color:red;
+    display:block;
+}
+
+
+ul li:hover ul li ul li{
+    display: none;
+}
+
+ul li ul li:hover ul li{
+    color:lightseagreen;
+    display: block;
+}
