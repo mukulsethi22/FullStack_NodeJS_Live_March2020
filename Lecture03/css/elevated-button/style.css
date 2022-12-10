@@ -21,5 +21,6 @@ div.btn:hover {
 div.btn:active {
     transform: translate(5px, 5px);
     box-shadow: gray 5px 5px 3px;
-    transition: 0.2s;
+    transition: 0.2s;/* transform 0.2s, box-shadow 0.4s*/
 }
+/* codepen small css projects */
