@@ -13,12 +13,13 @@
     border: solid black 1px;
     display: /*inline-height-width can't set*/inline-block;
 
-    animation: bounce 5s;
+    animation: bounce 2s; 
     animation-iteration-count: infinite;
 }
 
 .one {
     animation-timing-function: ease-in;
+    /* cubic bezeir curves*/
 }
 .two{
     animation-timing-function: ease-out;
@@ -38,5 +39,45 @@
     }
     100%{
 
+    }
+}
+
+
+.game {
+ margin: 50px;
+ background: azure;
+ border:dotted black 2px;
+ height: 500px;
+ width: 500px;
+}
+.box{
+    display: inline-block;
+    height:50px;
+    width:50px;
+    border: solid black 1px;
+}
+.player{
+    transform: translate(225px);
+    background-color: blue;
+    animation: name duration timing-function delay infinite direction fill-mode;
+}
+.enemy{
+    margin-left: 100px;
+    background-color: orangered;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+    animation-duration: ;
+    
+}
+
+@keyframes bounce {
+    50%{
+        transform:translateY(450px);
+    }
+}
+
+@keyframes move {
+    50%{
+        t
     }
 }

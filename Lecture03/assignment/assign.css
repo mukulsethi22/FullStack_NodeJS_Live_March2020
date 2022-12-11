@@ -1,7 +1,21 @@
-ul li{
-  color:blue;
+h1{
+    color:blueviolet;
 }
+ul li.one{
+    background-color: cornsilk;
 
+}
+ul li.two{
+    background-color: rgb(67, 241, 215);
+}
+ul li.three{
+    background-color: rgb(135, 245, 129);
+}
+ul.main>li{
+    border:solid black 2px;
+    margin-top:1px;
+    margin-bottom:1px;
+}
 ul li ul li{
     display:none;
 }
