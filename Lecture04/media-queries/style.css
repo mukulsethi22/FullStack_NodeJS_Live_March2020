@@ -1,28 +1,29 @@
-.box {
-  height: 100px;
-  width: 100px;
-  margin: 30px;
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 30px;
 
-  background-color: brown;
+    background-color: brown;
+    
 }
 
 
-@media (min-width: 400px) {
-    .box {
-        background-color: purple;
+
+
+@media(max-width:1200px){ /*viewport width*/
+    .box{
+        background-color: magenta;
     }
 }
 
-
-@media (min-width: 800px) {
-    .box {
+@media(max-width:900px){ /*viewport width*/
+    .box{
         background-color: limegreen;
     }
 }
 
-
-@media (min-width: 1200px) {
-    .box {
-        background-color: dodgerblue;
+@media (max-width:600px){ /* order carefully*/
+    .box{
+        background-color: purple;
     }
 }
